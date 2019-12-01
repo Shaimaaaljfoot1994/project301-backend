@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/addNew" method="POST">
+        <input type="text" name="term" value="<%= card.term%>">
+        <input type="text" name="description" value="<%= card.description%>">
+        <input type="text" name="image" value="<%= card.image_url%>">
+        <input type="text" name="notes" value="<%= card.notes%>">
+        <button type="submit">SELECT</button>
+    </form>
+</body>
+
+</html>

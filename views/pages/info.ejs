@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>
+        <%= card.term%>
+    </h1>
+    <p>
+        <%= card.description%>
+    </p>
+    <img src="<%= card.image_url%>" alt="not working" width="250px">
+    <p>
+        <%= card.notes%>
+    </p>
+    <div>
+        <form action="/addNew" method="POST">
+            <input type="hidden" name="term" value="<%= card.term%>">
+            <input type="hidden" name="description" value="<%= card.description%>">
+            <input type="hidden" name="image" value="<%= card.image_url%>">
+            <input type="hidden" name="notes" value="<%= card.notes%>">
+            <button type="submit">SELECT</button>
+        </form>
+    </div>
+</body>
+
+</html>
