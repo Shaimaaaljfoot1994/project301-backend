@@ -5,12 +5,12 @@
 </head>
 
 <body>
-    <form action="/addNew" method="POST">
+    <form action="/dictionary" method="POST">
         <input type="text" name="term" value="<%= card.term%>">
-        <input type="text" name="description" value="<%= card.description%>">
-        <input type="text" name="image" value="<%= card.image_url%>">
+        <textarea name="text" id="" cols="30" rows="10"><%- card.description%></textarea>
+        <input type="text" name="image_url" value='<%= card.image_url%>'>
         <input type="text" name="notes" value="<%= card.notes%>">
-        <button type="submit">SELECT</button>
+        <button type="submit">Add</button>
     </form>
 </body>
 
