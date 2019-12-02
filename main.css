@@ -9,15 +9,15 @@
     overflow: hidden;
   }
   body {
-    background: #111111;
+    background: #0f0e0f;
     font-family: 'Open sans',sans-serif;
   }
   
   .lego {
     border-width: 3px;
     border-style: solid;
-    border-color: #ffc37b;
-    color: #ffc37b;
+    border-color: #045b66;
+    color: #036779;
     width: 79px;
     height: 79px;
     display: block;
@@ -68,30 +68,19 @@
   }
   
   .github {
-    border-width: 3px;
-    border-style: solid;
-    border-color: #c00a99;
-    width: 201px;
-    height: 201px;
-    border-radius: 50%;
-    display: block;
+    width: 143%;
+    height: 901px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 50px;
     margin-top: -181px;
     margin-left: -100.5px;
-    background: url(http://legomushroom.com/__img/octocat.svg) no-repeat center center;
+background-image: url("https://data.whicdn.com/images/324598734/original.gif?t=1546316838");
+background-repeat: no-repeat;
     background-size: 75% auto;
     opacity: 0;
   }
   
-  .github__text {
-    bottom: -40px;
-    color: #46ce73;
-    width: 100%;
-    text-align: center;
-  }
-  
+
   .my-logo {
     top: 50%;
     left: 50%;
@@ -436,5 +425,7 @@
     font-size: 60px;
     font-family: 'Dancing Script', cursive;
     text-align: center;
-   margin-top: 60px;    
+   margin-top: 60px; 
+margin-left: 500px;
+
   }
