@@ -90,13 +90,13 @@ input, select, textarea {
 }
 
 
-video{
+/* video{
     position: absolute;
      top: 0;
     right: 0 ;
     width: 100%;
     opacity: 0.5;
-    }
+    } */
 
 
     #mainForm{
@@ -289,4 +289,57 @@ video{
         transition: all 0.5s;
       }
 
+      *********************
       
+/* http://ianlunn.github.io/Hover/ */
+.hvr-overline-from-center {
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+}
+.hvr-overline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background:#4E54C8;
+  height: 4px;
+  transition-property: left, right;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+.hvr-overline-from-center:hover:before, .hvr-overline-from-center:focus:before, .hvr-overline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+header{  
+font-family: 'Montserrat', sans-serif;
+font-size: 17px;
+min-height: 100px;
+line-height: 100px;
+}
+header a {
+margin: 0 25px;
+padding: 10px;
+color: black;
+}
+
+footer{
+  text-align: center;
+  padding:35px;
+}
+
+
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 13px;
+  text-align: center;
+  background: rgb(182, 230, 230) url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/low_contrast_linen.png');
+}
+
+

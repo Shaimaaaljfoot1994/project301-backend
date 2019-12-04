@@ -72,7 +72,7 @@ input, select, textarea {
     margin-left: 50px;
     border: 2px rgb(65, 4, 4);
     scroll-margin-top: 300px;
-    color: maroon;
+    color: rgb(19, 13, 13);
     font-family: Georgia, 'Times New Roman', Times, serif;
     /* background: green; */
 }
@@ -80,13 +80,14 @@ input, select, textarea {
 
 #f2 {
     width: 200px;
-    height: 60px;
+    height:50px;
     text-align: center;
-    margin-left: 800px;
-    color: rgb(77, 6, 6);
+    margin-left: 600px;
+    color: rgb(20, 17, 17);
     border-color: 5px maroon;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(141, 140, 140);
+    background-color:  rgba(42, 65, 68, 0.3);
+    margin: 0px 0px 1000px 600px;
 }
 
 
@@ -116,15 +117,14 @@ video{
 
       h1 {
           text-align: center;
-          color: maroon;
+          color: rgb(15, 10, 10);
           font-size: 100px;
-          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      }
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    }
 
 
       h2 {
         text-align: center;
-        color: maroon;
+        color: rgb(14, 12, 12);
         font-size: 40px;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
@@ -132,15 +132,15 @@ video{
       
 
       #choice{
-        border: 10px solid rgb(70, 4, 4);
+        border: 3px solid rgb(20, 8, 8);
         padding: 10px;
         border-radius: 50px 20px;
-        background: rgb(172, 172, 172) ;
+        background: white ; 
 
 
 
         width: 900px;
-        height: 800px;
+        height: 600px;
        
           margin: 20px auto;
         box-shadow: -1px -1px 10px 2px #fff;
@@ -164,7 +164,7 @@ video{
     scroll-margin-top: 300px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    color: maroon;
+    color: rgb(15, 13, 13);
     font-size: 30px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -176,8 +176,8 @@ video{
 
 img {
     
-    width: 500px;
-    height: 200px;
+    width: 200px;
+    height:100px;
     text-align: center;
     margin-left: 280px;
     border: 2px rgb(65, 4, 4);
@@ -194,3 +194,65 @@ img {
         margin-left: 290px;
         scroll-margin-top: 300px;
       }
+      ********************************
+      
+/* http://ianlunn.github.io/Hover/ */
+.hvr-overline-from-center {
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+}
+.hvr-overline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background:#4E54C8;
+  height: 4px;
+  transition-property: left, right;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+.hvr-overline-from-center:hover:before, .hvr-overline-from-center:focus:before, .hvr-overline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+header{  
+font-family: 'Montserrat', sans-serif;
+font-size: 17px;
+min-height: 100px;
+line-height: 100px;
+}
+header a {
+margin: 0 25px;
+padding: 10px;
+color: black;
+}
+
+footer{
+  text-align: center;
+  padding:35px;
+}
+
+
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 13px;
+  text-align: center;
+  background: rgb(182, 230, 230) url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/low_contrast_linen.png');
+}
+
+#shaimaa {
+	border : 3px solid rgb(26, 17, 17) ;
+	border-radius: 8px;
+	margin: 10px ;
+	padding: 15px;
+	/* background-color: rgb(204, 166, 151); */
+	background-color:  rgba(42, 65, 68, 0.3);
+
+}

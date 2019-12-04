@@ -396,3 +396,42 @@ width: 65%;
 
 
 
+/* http://ianlunn.github.io/Hover/ */
+.hvr-overline-from-center {
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+  }
+  .hvr-overline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background:#4E54C8;
+    height: 4px;
+    transition-property: left, right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+  .hvr-overline-from-center:hover:before, .hvr-overline-from-center:focus:before, .hvr-overline-from-center:active:before {
+    left: 0;
+    right: 0;
+  }
+
+  header{  
+	font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  min-height: 100px;
+  line-height: 100px;
+}
+header a {
+  margin: 0 25px;
+  padding: 10px;
+  color: black;
+}
+
+footer{
+    text-align: center;
+    padding:35px;
+  }
