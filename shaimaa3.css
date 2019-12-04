@@ -15,7 +15,7 @@ form {
   background-image: url('http://ryokb95.upload-website.com/login-signupform/imgs/1.jpg');
   height: 550px;
   width: 300px;
-  margin: 60px auto;
+  margin: auto;
   border-radius: 8px;
   padding : 20px 0;
     position: relative;
@@ -32,9 +32,10 @@ button{box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.58);}
 /*Start header*/
 form h1 {
   text-align: center;
-  color: #9e3434;
+  color: #836262;
   padding-top: 64px;
-}
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 40px;}
 
 form p {
   color: #828999;
@@ -43,16 +44,16 @@ form p {
   margin-top: -19px;
 }
  /*The link of the site in the p tag ***/
-form p>a{color:#828999;text-decoration: none;transition: 0.3s }
-form p>a:hover{color: #1da1f2}
-form p>a:active{color: #1da1f2 }
+form p>a{color:#836262;text-decoration: none;transition: 0.3s }
+form p>a:hover{color: #836262}
+form p>a:active{color: #836262 }
 /*End login header*/
 
 
 /* Start the input-info style*/
 .input-info {margin-top: 30px;margin-bottom: 15px}/*the containe div style*/
 input[type="text"],input[type="email"],input[type="password"]  {
-    border: 1px solid #828999;
+    border: 1px solid #836262;
     padding: 10px;
     border-radius: 5px;
     width: 90%;
@@ -75,10 +76,10 @@ input[type="text"],input[type="email"],input[type="password"]  {
     display: block;
 }
 
-.input-info input:hover{background: #435688}
+.input-info input:hover{background: #836262}
 .input-info input[type="checkbox"] {margin-left: 17px;cursor: pointer;margin-top: 7px}
-.input-info span {color: #83899a;font-size: 11px;}
-.input-info span>a{color:#1da1f2 }
+.input-info span {color: #836262;font-size: 11px;}
+.input-info span>a{color:#836262 }
 .input-info span>a:hover{color:#fff }
 
 /*End the input-info style*/ 
@@ -89,25 +90,25 @@ input[type="text"],input[type="email"],input[type="password"]  {
 .login{/*button login style*/
     padding: 10px;
     margin-top: 16px;
-    background: #435688;
+    background: #836262;
     color: #fff;
     width: 103px;
     border-radius: 6px;
     cursor: pointer;
     transition: 0.5s;
-    border: 1px solid #435688;
+    border: 1px solid #836262;
     outline: none;
 }
 .signup {/*button signup style*/
-  background: #9e3434;
-  border: 1px solid #9e3434;
+  background: #836262;
+  border: 1px solid #836262;
 }
 
 
 .log-sign .signup>a{color: #fff;text-decoration: none;}/*the signup link style*/
 .log-sign button:hover{
    background:none;
-   border:1px solid #828999;
+   border:1px solid #836262;
    color: #828999;
 }
 
@@ -126,30 +127,7 @@ input[type="text"],input[type="email"],input[type="password"]  {
 }
 
 
-/*facebook social-media button style*/
-.social-media{margin-bottom: 35px;}
-.social-media .btn1 {/*facebook button*/
-  border: 0;
-  background: #3B5998;
-  color: #fff;
-  padding: 15px;
-  width: 90%;
-  margin-left: 16px;
-  margin-top: 14px;
-  border-radius: 5px;
 
-}
-.social-media .btn2 {/*twitter button*/
-  border: 0;
-  padding: 15px;
-  margin-top: 11px;
-  width: 90%;
-  margin-left: 16px;
-  border-radius: 5px;
-  background: #1DA1F2;
-  color: #fff;
-
-}
 .social-media button>a{color: #fff;text-decoration: none;}
 /************/
 
@@ -171,13 +149,13 @@ audio{
 
 .wrapper {
     background: #50a3a2;
-    background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+    background: linear-gradient(to bottom right, #50a3a2 , #53e3a6 );
     position: absolute;
-    top: 50%;
-    left: 0;
+    /* top: 50%; */
+    /* left: 0; */
     width: 100%;
-    height: 400px;
-    margin-top: -200px;
+    height: 100%;
+    /* margin-top: -200px;  */
     overflow: hidden;
   }
   .wrapper.form-success .container h1 {
